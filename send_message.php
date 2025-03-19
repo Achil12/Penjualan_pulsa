@@ -1,6 +1,6 @@
 <?php
 function sendTelegramMessage($chat_id, $text) {
-    $token = "8166136017:AAEM20OjwdjMPR-XQ5wGY6FCE5pBzJK3EZM"; // Ganti dengan token bot Anda
+    $token = "<GANTI DENGAN TOKEN BOT ANDA>"; // Ganti dengan token bot Anda
     $url = "https://api.telegram.org/bot{$token}/sendMessage";
     $data = [
         'chat_id' => $chat_id,
