@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         
         // Kirimkan pemberitahuan ke Telegram
-        $chat_id = "1412180390"; // Ganti dengan chat ID Anda
+        $chat_id = "<GANTI DENGAN CHAT ID ANDA>"; // Ganti dengan chat ID Anda
         $text = "Pembelian pulsa: Rp {$nominal} untuk nomor {$phoneNumber} berhasil!\n";
         $text .= "Jenis Kartu: {$cardType}\n";
         $text .= "Metode Pembayaran: {$payment}\n";
